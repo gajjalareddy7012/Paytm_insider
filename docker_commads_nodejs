@@ -1,0 +1,20 @@
+// Authenciate with dockerhub
+  
+   docker login -u <usernamr> -p <password>
+   
+// To create docker image
+ 
+   docker build -t <repodetails>/<appname>:<version> .
+   
+   docker build -t gajjala7012/node1:latest .
+   
+// push docker image into dockerhub
+  
+  docker push <repodetails>/<appname>
+  
+  docker push gajjala7012/node1
+  
+// Pull image from dockerhub
+
+  docker pull gajjala7012/node1
+  
